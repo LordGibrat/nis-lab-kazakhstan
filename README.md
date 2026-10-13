@@ -1,6 +1,6 @@
 # NIS Lab
 
-NIS Lab is a browser-based Kazakh-language practice platform for students preparing for the entrance selection process to the 7th grade of NIS schools.
+NIS Lab is a Russian-language browser practice platform for students in Kazakhstan preparing for the entrance selection process to the 7th grade of NIS schools. It is an independent portfolio project maintained by [@LordGibrat](https://github.com/LordGibrat).
 
 **[Open the live platform →](https://lordgibrat.github.io/nis-lab-kazakhstan/)**
 
@@ -19,7 +19,7 @@ No server, account, or API key is required. The app can also be downloaded and o
 - A parent view with accuracy, activity statistics, and CSV/JSON export.
 - Links to official and supplementary preparation resources.
 
-The bank contains 127 manually prepared tasks: 75 authored questions and 52 checkable numerical variants in mathematics and quantitative reasoning. The “adaptive” selection is a transparent rule system based on answer history; it does not use a generative model or paid API.
+The bank contains 75 authored questions and 52 programmatically generated, checkable numerical variants in mathematics and quantitative reasoning (127 tasks in total). The “adaptive” selection is a transparent rule system based on answer history; it does not use a generative model or paid API.
 
 ## Scope and limitations
 
