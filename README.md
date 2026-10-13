@@ -1,32 +1,36 @@
 # NIS Lab
 
-Учебная платформа для подготовки к вступительным испытаниям в 7-й класс НИШ.
+NIS Lab is a browser-based Kazakh-language practice platform for students preparing for the entrance selection process to the 7th grade of NIS schools.
 
-**[Открыть платформу →](https://lordgibrat.github.io/nis-lab-kazakhstan/)**
+**[Open the live platform →](https://lordgibrat.github.io/nis-lab-kazakhstan/)**
 
-![Главная страница NIS Lab](preview.png)
+![NIS Lab home page](preview.png)
 
-Можно также скачать репозиторий и открыть `index.html` в Chrome или Edge — сервер, аккаунт и API-ключ не нужны.
+No server, account, or API key is required. The app can also be downloaded and opened directly from `index.html` in Chrome or Edge.
 
-## Что работает
+## What the prototype includes
 
-- Отдельные профили детей, сохранение прогресса в браузере.
-- Диагностика: 18 вопросов по шести направлениям.
-- Тренировки: 8 вопросов по предмету или 12 из разных предметов.
-- Подбор вопросов с приоритетом слабых тем и ещё не решённых заданий.
-- Объяснение после каждого тренировочного ответа и повторение ошибок.
-- Авторский мини-пробник: 24 вопроса, 25 минут, результаты по предметам.
-- Кабинет родителей: точность, количество заданий и экспорт CSV/JSON.
-- Ссылки на официальные и дополнительные ресурсы.
+- Separate student profiles with browser-local progress.
+- An 18-question diagnostic across six subject areas.
+- Focused practice sets and mixed-subject practice.
+- Rule-based selection that prioritises weaker topics and unanswered questions.
+- Immediate explanations and an error-review loop.
+- A 24-question, 25-minute mini mock exam with subject-level results.
+- A parent view with accuracy, activity statistics, and CSV/JSON export.
+- Links to official and supplementary preparation resources.
 
-В банке 75 вручную подготовленных вопросов и 52 проверяемых числовых варианта по математике и количественным характеристикам — всего 127 заданий. Это не материалы НИШ и не официальный экзамен. НИШ не связан с этим проектом. Подбор «умный» в смысле правила на основе истории ответов; генеративная модель и платный API не используются. Статистика строится по результатам внутри этой платформы, поэтому не является прогнозом поступления.
+The bank contains 127 manually prepared tasks: 75 authored questions and 52 checkable numerical variants in mathematics and quantitative reasoning. The “adaptive” selection is a transparent rule system based on answer history; it does not use a generative model or paid API.
 
-Прогресс хранится в `localStorage` этого браузера. Если открыть файл в другом браузере или удалить данные сайта, профили не перенесутся; используйте экспорт копии данных в разделе «Для родителей».
+## Scope and limitations
 
-## Источники формата и тем
+NIS Lab is an independent practice tool, not an official NIS product or exam. NIS is not affiliated with the project, and the statistics describe activity inside this app rather than predicting admission outcomes.
 
-- [Образцы НИШ](https://www.nis.edu.kz/ru/page/konkurstyq-irikteu-tapsyrmalarynyn-ulgileri)
-- [Курс Центра педагогических измерений НИШ](https://www.academia.kz/ru/course/38)
-- [Официальный пробный тест НИШ](https://www.nis.edu.kz/ru/page/baiqau-testileui)
+Progress is stored in the browser’s `localStorage`. Export a backup from the parent section before switching browsers or clearing site data.
 
-Композиция интерфейса вдохновлена образовательными подборками [Lapa Ninja](https://www.lapa.ninja/category/education/). Макеты и графика созданы для этого приложения.
+## Sources and design
+
+- [NIS sample entrance tasks](https://www.nis.edu.kz/ru/page/konkurstyq-irikteu-tapsyrmalarynyn-ulgileri)
+- [NIS Pedagogical Measurements Centre course](https://www.academia.kz/ru/course/38)
+- [Official NIS practice test](https://www.nis.edu.kz/ru/page/baiqau-testileui)
+
+The interface composition was informed by educational product references; the layouts and graphics in this repository were created for NIS Lab.
