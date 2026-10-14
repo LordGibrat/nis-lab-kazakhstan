@@ -1,0 +1,7 @@
+.ai-harness/
+.codegraph/
+.cursor/
+.mcp.json
+AGENTS.md
+.env*
+README.md
