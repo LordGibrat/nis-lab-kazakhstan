@@ -6,7 +6,7 @@ NIS Lab is a Russian-language browser practice platform for students in Kazakhst
 
 ![NIS Lab home page](preview.png)
 
-No server, account, or API key is required. The app can also be downloaded and opened directly from `index.html` in Chrome or Edge.
+No server, account, or API key is required. To run a local copy, clone the repository and open [`index.html`](index.html) in Chrome or Edge. Progress is stored only in that browser.
 
 ## What the prototype includes
 
